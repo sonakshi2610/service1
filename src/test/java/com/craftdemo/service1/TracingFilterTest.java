@@ -1,7 +1,7 @@
 package com.craftdemo.service1;
 
-import com.craftdemo.requestfilter.CustomHeaderRequestWrapper;
-import com.craftdemo.requestfilter.TracingFilter;
+import com.craftdemo.requestfilter.filters.CustomHeaderRequestWrapper;
+import com.craftdemo.requestfilter.filters.TracingFilter;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,7 +13,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import static com.craftdemo.requestfilter.Constants.REQUEST_HEADER_TRACE_ID;
+import static com.craftdemo.requestfilter.util.Constants.REQUEST_HEADER_TRACE_ID;
 import static org.mockito.Mockito.when;
 
 public class TracingFilterTest {

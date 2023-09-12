@@ -1,6 +1,6 @@
 package com.craftdemo.service1.exceptions;
 
-import com.craftdemo.requestfilter.GlobalExceptionHandler;
+import com.craftdemo.requestfilter.exceptions.GlobalExceptionHandler;
 import com.craftdemo.service1.controller.HelloController;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 

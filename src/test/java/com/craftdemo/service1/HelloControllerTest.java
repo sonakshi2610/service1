@@ -1,8 +1,8 @@
 package com.craftdemo.service1;
 
-import com.craftdemo.requestfilter.CustomHeaderRequestWrapper;
-import com.craftdemo.requestfilter.LoggingFilter;
-import com.craftdemo.requestfilter.TracingFilter;
+import com.craftdemo.requestfilter.filters.CustomHeaderRequestWrapper;
+import com.craftdemo.requestfilter.filters.LoggingFilter;
+import com.craftdemo.requestfilter.filters.TracingFilter;
 import com.craftdemo.service1.controller.HelloController;
 import com.craftdemo.service1.service.HelloService;
 import org.junit.jupiter.api.Test;

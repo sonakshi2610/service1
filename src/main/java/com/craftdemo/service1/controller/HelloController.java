@@ -1,7 +1,7 @@
 package com.craftdemo.service1.controller;
 
-import com.craftdemo.requestfilter.RequestContext;
-import com.craftdemo.requestfilter.ResponseDto;
+import com.craftdemo.requestfilter.util.RequestContext;
+import com.craftdemo.requestfilter.response.ResponseDto;
 import com.craftdemo.service1.service.HelloService;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;

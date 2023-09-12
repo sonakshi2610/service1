@@ -1,7 +1,7 @@
 package com.craftdemo.service1.configuration;
 
-import com.craftdemo.requestfilter.LoggingFilter;
-import com.craftdemo.requestfilter.TracingFilter;
+import com.craftdemo.requestfilter.filters.LoggingFilter;
+import com.craftdemo.requestfilter.filters.TracingFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

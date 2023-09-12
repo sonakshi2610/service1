@@ -1,6 +1,6 @@
 package com.craftdemo.service1.util;
 
-import com.craftdemo.requestfilter.CustomAsyncHttpClient;
+import com.craftdemo.requestfilter.httpClients.CustomAsyncHttpClient;
 import org.asynchttpclient.Response;
 
 import java.util.concurrent.CompletableFuture;
